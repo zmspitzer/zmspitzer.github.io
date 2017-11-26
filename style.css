@@ -1,0 +1,245 @@
+
+/*----- Toggle Button -----*/
+.toggle-nav {
+    display:none;
+}
+
+/*----- Menu -----*/
+@media screen and (min-width: 860px) {
+    .menu {
+        float: right;
+        width:300px;
+        line-height:0.7;
+        padding:0px 0px;
+        box-shadow:0px 1px 1px rgba(0,0,0,0.15);
+        border-radius:2px;
+        background:green;
+        
+    }
+}
+
+.menu ul {
+    display:inline-block;
+}
+
+.menu li {
+    margin:0px 50px 0px 0px;
+    float:left;
+    list-style:none;
+    font-size:17px;
+}
+
+.menu li:last-child {
+    margin-right:0px;
+}
+
+.menu a {
+    text-shadow:0px 1px 0px rgba(0,0,0,0.5);
+    color:white;
+    transition:color linear 0.15s;
+}
+
+.menu a:hover, .menu .current-item a {
+    text-decoration:none;
+    color:#66a992;
+}
+
+
+
+/*----- Responsive -----*/
+@media screen and (max-width: 1150px) {
+    .wrap {
+        width:90%;
+    }
+}
+
+@media screen and (max-width: 970px) {
+    .search-form input {
+        width:120px;
+    }
+}
+
+@media screen and (max-width: 860px) {
+    .menu {
+        position:relative;
+        display:inline-block;
+    }
+
+    .menu ul.active {
+        display:none;
+    }
+
+    .menu ul {
+        width:100%;
+        position:absolute;
+        top:120%;
+        left:0px;
+        padding:10px 18px;
+        box-shadow:0px 1px 1px rgba(0,0,0,0.15);
+        border-radius:3px;
+        background:#303030;
+    }
+
+    .menu ul:after {
+        width:0px;
+        height:0px;
+        position:absolute;
+        top:0%;
+        left:22px;
+        content:'';
+        transform:translate(0%, -100%);
+        border-left:7px solid transparent;
+        border-right:7px solid transparent;
+        border-bottom:7px solid #303030;
+    }
+
+    .menu li {
+        margin:5px 0px 5px 0px;
+        float:none;
+        display:block;
+    }
+
+    .menu a {
+        display:block;
+    }
+
+    .toggle-nav {
+        padding:20px;
+        align-content: right;
+        display:inline-block;
+        box-shadow:0px 1px 1px rgba(0,0,0,0.15);
+        border-radius:3px;
+        background:#303030;
+        text-shadow:0px 1px 0px rgba(0,0,0,0.5);
+        color:#777;
+        font-size:20px;
+        transition:color linear 0.15s;
+    }
+
+    .toggle-nav:hover, .toggle-nav.active {
+        text-decoration:none;
+        color:#66a992;
+    }
+
+    
+}
+
+
+
+p {
+    color: #4D4D4D;
+    font-size: 16px;
+    font-family: Verdama, Calibri, Arial, Helvetica, sans-serif; 
+}
+
+
+
+
+
+
+
+.firstParagraph {
+    color: 4D4D4D;
+    fontsize: 22px;
+    font-family: Verdama, Calibri, Arial, Helvetica, sans-serif;
+    margin-left: 175px;
+    text-transform: none;
+    
+.mapTitle-1 {
+    color: 4D4D4D;
+    fontsize: 22px;
+    font-family: Verdama, Calibri, Arial, Helvetica, sans-serif;
+    margin-left: 175px;
+}
+
+
+    
+}
+
+body{
+    background-color: #ddd;
+    width: 850px;
+    height: absolute;
+    margin-right: auto;
+    margin-left: auto;
+    align-content: center;
+}
+
+
+.content {
+    background-color: #ddd;
+}
+
+
+
+
+
+
+
+
+.left {
+   float: left;
+   padding: 0 20px 20px 0;
+}
+
+.header {
+    text-indent: 50px;
+	width: 850px;
+    height: 35px;
+    background: gray;
+    color: white;
+    padding-top:10px;
+    padding-bottom: 10px;
+    line-height:1.1;
+    border-radius:15px 2px 2px 2px;
+    
+    
+}
+
+
+.thumbnail-1 {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  overflow: hidden;
+    display: inline-block;
+}
+.thumbnail-1 img {
+  position: absolute;
+  left: 50%;
+  top: 115%;
+  height: 50%;
+  width: auto;
+  -webkit-transform: translate(-50%,-50%);
+      -ms-transform: translate(-50%,-50%);
+          transform: translate(-50%,-50%);
+}
+.thumbnail-1 img.portrait {
+  width: 90%;
+  height: auto;
+    
+}
+
+
+.thumbnail-2 {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  overflow: hidden;
+    display: inline-block;
+
+}
+.thumbnail-2 img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  height: 100%;
+  width: auto;
+  -webkit-transform: translate(-50%,-50%);
+      -ms-transform: translate(-50%,-50%);
+          transform: translate(-50%,-50%);
+}
+.thumbnail-2 img.portrait {
+  width: 100%;
+  height: auto;
+}
