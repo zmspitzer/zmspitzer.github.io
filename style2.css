@@ -1,0 +1,121 @@
+
+.header {
+    color:white;
+    height: 50px;
+    width: absolute;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Verdama, Calibri, Arial, Helvetica, sans-serif; 
+    margin: 0;
+    background-color: #6666;
+    display: block;
+    width:100vw;
+    
+}
+
+
+
+p {
+    color: #4D4D4D;
+    font-size: 16px;
+    font-family: Verdama, Calibri, Arial, Helvetica, sans-serif; 
+}
+
+li {
+list-style-type: none
+margin-top: 0px;
+padding: 0px;
+font-size: 16px;
+text-align: center;
+font-family: Verdama, Calibri, Arial, Helvetica, sans-serif;
+color: white;
+display: inline-block;
+
+}
+
+
+
+.firstParagraph {
+    color: 4D4D4D;
+    fontsize: 22px;
+    font-family: Verdama, Calibri, Arial, Helvetica, sans-serif;
+    margin-left: 175px;
+    
+.workParagraph {
+    color: 4D4D4D;
+    fontsize: 22px;
+    font-family: Verdama, Calibri, Arial, Helvetica, sans-serif;
+    margin-left: 175px;
+}
+
+
+    
+}
+
+body{
+    background-color: #ddd;
+    width: absolute;
+    height: absolute;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.content {
+    background-color: #ddd;
+}
+
+
+
+
+.button {
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    text-align: center;
+    font-family: Verdama, Calibri, Arial, Helvetica, sans-serif;
+    display: inline-block;
+    background-color: transparent;
+    color: white;
+    
+}
+
+.button a {
+    color: white;
+    font-weight: bold;
+    padding-left: 60px;
+    padding right: 60px;
+    width: 120px;
+    display:inline-block;
+}
+
+
+#navBar {
+    padding-top: 5px;
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    list-style: none;
+    text-align: center;
+    display:inline-block;
+    background-size: cover
+    
+    
+    
+}
+
+
+
+.left {
+   float: left;
+   padding: 0 20px 20px 0;
+}
+
+
+
+
+
