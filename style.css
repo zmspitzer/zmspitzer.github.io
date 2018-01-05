@@ -1,0 +1,238 @@
+<style>
+@import url('https://fonts.googleapis.com/css?family=Lora|Open+Sans');
+</style>
+
+
+/** Header Navigation **/
+
+html {
+  height: 100%;
+    background-color: gray;
+} 
+
+header .navbar {
+    
+    padding-top: 5px
+}
+
+
+
+header .navbar-default {
+    background-color: #555E88;
+    border: none;
+    padding-right: 30px
+}
+
+header .navbar-default .navbar-nav a {
+    color: white;
+    font-style: lora;
+    font-size: 1.05em;
+    padding: 17px 8px;
+}
+
+header .navbar-default .navbar-nav a:hover {
+    color: paleturquoise;
+}
+
+header .navbar-default .navbar-nav .active a {
+    font-weight: 700;
+    color: white;
+    background: transparent;
+    border-bottom: 4px solid #808080;
+    text-shadow: none;
+    padding: 17px 8px;
+}
+
+header .navbar-default .navbar-nav .active a:hover{
+  color: paleturquoise;
+    background: transparent;
+    text-shadow: none;
+    
+}
+
+/** Navbar Brand**/
+
+header .navbar-brand {
+  background: none;
+  background-repeat: no-repeat;
+  background-position: 15px 0;
+  height: 70px;
+}
+
+header .navbar-brand h1 {
+  color: floralwhite;
+  margin: 0;
+  font-size: 1.8em;
+  font-weight: 300;
+    font-family: Lora; 
+text-transform: uppercase;
+letter-spacing: 3px;
+  padding-left: 20px;
+
+}
+
+/** Navbar Toggle**/
+header .navbar-toggle {
+    background-color: lightgray;
+}
+
+header. navbar-default .navbar.toggle .icon-bar {
+    background-color: white;
+}
+
+.content {
+    background-color: #ddd;
+}
+
+
+    
+
+
+
+@media (max-width: 9000px)
+    
+
+    
+    
+{
+    header .navbar-collapse.in {
+    background-color: rgba(0,0,0, .5);
+  }
+  
+
+    
+    
+/**Footer Navigation **/
+footer .navbar-default {
+    background: transparent;
+}
+
+
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Open Sans", sans-serif;
+    font-weight=300
+    margin: 0;
+}
+
+p {
+    color: #4D4D4D;
+    font-size: 16px;
+    font-family: Lora, Verdama, Calibri, Arial, Helvetica, sans-serif; 
+}
+
+
+
+
+
+
+
+.standardParagraph {
+    color: #4D4D4D;
+    font-size: 20px;
+    font-family: Lora, Verdama, Calibri, Arial, Helvetica, sans-serif;
+    margin-left: 30px;
+    text-transform: none;
+    padding-right: 30px;
+    line-height: 30px;
+}
+    
+.mapTitle-1 {
+    color: 4D4D4D;
+    font-size: 22px;
+    font-family: Verdama, Calibri, Arial, Helvetica, sans-serif;
+    margin-left: 175px;
+    }
+ 
+
+body{
+    background-color: #ddd;   
+    color: #4D4D4D;
+    font-size: 22px;
+    font-family: Lora, Verdama, Calibri, Arial, Helvetica, sans-serif;
+    position: relative
+    margin-right: auto;
+    margin-left: auto;
+    
+
+}
+
+
+.content {
+    background-color: #ddd;
+}
+
+
+
+
+
+
+
+
+.left {
+   float: left;
+   padding: 0px 20px 20px 30px;
+}
+
+.header {
+    text-indent: 50px;
+	width: 850px;
+    height: 35px;
+    background: gray;
+    color: white;
+    padding-top:10px;
+    padding-bottom: 10px;
+    line-height:1.1;
+    border-radius:15px 2px 2px 2px;
+    
+    
+}
+
+
+.thumbnail-1 {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  overflow: hidden;
+    display: inline-block;
+}
+.thumbnail-1 img {
+  position: absolute;
+  left: 50%;
+  top: 115%;
+  height: 50%;
+  width: auto;
+  -webkit-transform: translate(-50%,-50%);
+      -ms-transform: translate(-50%,-50%);
+          transform: translate(-50%,-50%);
+}
+.thumbnail-1 img.portrait {
+  width: 90%;
+  height: auto;
+    
+}
+
+
+.thumbnail-2 {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  overflow: hidden;
+    display: inline-block;
+
+}
+.thumbnail-2 img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  height: 100%;
+  width: auto;
+  -webkit-transform: translate(-50%,-50%);
+      -ms-transform: translate(-50%,-50%);
+          transform: translate(-50%,-50%);
+}
+.thumbnail-2 img.portrait {
+  width: 100%;
+  height: auto;
+}
